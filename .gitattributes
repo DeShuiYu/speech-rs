@@ -1,0 +1,1 @@
+paraformer_weights/model.int8.onnx filter=lfs diff=lfs merge=lfs -text

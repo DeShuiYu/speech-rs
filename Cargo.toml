@@ -1,0 +1,11 @@
+[package]
+name = "speech-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = { version = "1" }
+hound = "3.4"
+ndarray = "0.17" 
+ort = { version = "2.0.0-rc.10", features = ["ndarray","download-binaries"] }
+rustfft = "6.0"
